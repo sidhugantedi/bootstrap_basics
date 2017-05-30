@@ -1,0 +1,31 @@
+.newdiv {
+    background-color: silver;
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+}
+.newdiv p {
+    padding: 10px;
+    margin: 0;
+}
+.newdiv2 {
+    background-color: silver;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 5px;
+}
+.explanation:hover {
+    color: orangered;
+    text-align: center;
+    background-color: black;
+    height: 50px;
+}
+.explanation {
+    text-align: center;
+    height: 50px;
+}
+.c-program {
+    width: 60%;
+    margin-left: 200px;
+}
+

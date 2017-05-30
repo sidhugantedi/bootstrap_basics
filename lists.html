@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <title>List items</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+<!--       blockquote reverse class is to display the blockquote to the right-->
+
+        <blockquote class="blockquote-reverse">
+            <p>Its good to bunk classes sometimes, because when I look back <br />
+                marks never gave me happiness but memories did.
+            </p><footer><cite title="A.P.J. Abdul Kalam">A.P.J. Abdul Kalam</cite></footer>
+        </blockquote>
+
+<!--        The below code is for the definitions-->
+
+        <dl class="dl-horizontal">
+            <dt>CSS</dt>
+            <dd>CSS is the stylesheet for the html page</dd>
+        </dl>
+         <dl>
+            <dt>CSS</dt>
+            <dd>CSS is the stylesheet for the html page</dd>
+        </dl>
+<!--        The unordered list to display inline and without the bullte points-->
+        <ul class="list-inline">
+            <li>India</li>
+            <li>America</li>
+            <li>Australia</li>
+        </ul>
+         <ul class="list-unstyled">
+            <li>India</li>
+            <li>America</li>
+            <li>Australia</li>
+        </ul>
+
+<!--        list group items and show badges to the items-->
+        <h2>List items in a group</h2>
+        <ul class="list-group">
+            <li class="list-group-item">India</li>
+            <li class="list-group-item">America</li>
+            <li class="list-group-item">Australia</li>
+            <li class="list-group-item"><span class="badge">New</span>UK</li>
+        </ul>
+<!--        making the list groups as links. Instead of <ul> use <div> element and instead of using <li> tag just use the anchor <a> tag.-->
+
+        <h2>List items in a group as links</h2>
+         <div class="list-group">
+            <a href="https://www.google.com" target="_blank" class="list-group-item">Google</a>
+            <a href="https://www.facebook.com" target="_blank" class="list-group-item">facebook</a>
+            <a href="https://www.twitter.com" target="_blank" class="list-group-item">twitter</a>
+             <a href="https://www.instagram.com" target="_blank" class="list-group-item"><i class="badge">New</i>instagram</a>
+        </div>
+
+            <h2>List gruop items with styling classes</h2>
+        <div class="list-group">
+            <a href="https://www.google.com" target="_blank" class="list-group-item list-group-item-danger">Google</a>
+            <a href="https://www.facebook.com" target="_blank" class="list-group-item list-group-item-success">facebook</a>
+            <a href="https://www.twitter.com" target="_blank" class="list-group-item list-group-item-warning">twitter</a>
+            <a href="https://www.instagram.com" target="_blank" class="list-group-item list-group-item-info"><span class="badge">New</span>instagram</a>
+        </div>
+        <h2>List groups with active and disabled classes</h2>
+        <div class="list-group">
+            <a href="https://www.google.com" target="_blank" class="list-group-item active">Google</a>
+            <a href="https://www.facebook.com" target="_blank" class="list-group-item disabled">facebook</a>
+            <a href="https://www.twitter.com" target="_blank" class="list-group-item active">twitter</a>
+            <a href="https://www.instagram.com" target="_blank" class="list-group-item disabled"><span class="badge">New</span>instagram</a>
+        </div>
+        <div class="list-group">
+            <a href="#" class="list-group-item active">
+            <h4 class="list-group-item-heading">Google</h4>
+            <p class="list-group-item-text">Many use this to check their internet connection.</p>
+                </a>
+             <a href="#" class="list-group-item disabled">
+                New<h4 class="list-group-item-heading">Facebook</h4>
+            <p class="list-group-item-text">This is the best time killer.</p>
+                </a>
+            <a href="#" class="list-group-item list-group-item-success">
+            <span class="badge">New</span><h4 class="list-group-item-heading">Instagram</h4>
+            <p class="list-group-item-text">Not much addicted.</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
